@@ -1,0 +1,6 @@
+fringa_pkg
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/fringa_pkg/cmake.lock /home/jaime/Desktop/DynamicEntropyExplore/devel/./cmake.lock
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/fringa_pkg/share/fringa_pkg/cmake/fringa_pkgConfig-version.cmake /home/jaime/Desktop/DynamicEntropyExplore/devel/share/fringa_pkg/cmake/fringa_pkgConfig-version.cmake
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/fringa_pkg/share/fringa_pkg/cmake/fringa_pkgConfig.cmake /home/jaime/Desktop/DynamicEntropyExplore/devel/share/fringa_pkg/cmake/fringa_pkgConfig.cmake
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/fringa_pkg/lib/pkgconfig/fringa_pkg.pc /home/jaime/Desktop/DynamicEntropyExplore/devel/lib/pkgconfig/fringa_pkg.pc
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/fringa_pkg/lib/fringa_pkg/fringa /home/jaime/Desktop/DynamicEntropyExplore/devel/lib/fringa_pkg/fringa

@@ -1,0 +1,8 @@
+prefix=/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/husky_control
+
+Name: husky_control
+Description: Description of husky_control
+Version: 0.4.12
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

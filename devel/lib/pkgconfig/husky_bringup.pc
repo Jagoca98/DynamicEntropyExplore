@@ -1,0 +1,1 @@
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/husky_bringup/lib/pkgconfig/husky_bringup.pc

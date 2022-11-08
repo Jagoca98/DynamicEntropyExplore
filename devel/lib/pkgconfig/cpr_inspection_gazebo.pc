@@ -1,0 +1,1 @@
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/cpr_inspection_gazebo/lib/pkgconfig/cpr_inspection_gazebo.pc

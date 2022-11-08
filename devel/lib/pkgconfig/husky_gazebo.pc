@@ -1,0 +1,1 @@
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/husky_gazebo/lib/pkgconfig/husky_gazebo.pc

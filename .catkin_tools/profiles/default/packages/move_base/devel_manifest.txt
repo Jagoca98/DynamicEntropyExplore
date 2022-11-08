@@ -1,0 +1,14 @@
+navigation/move_base
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/move_base/cmake.lock /home/jaime/Desktop/DynamicEntropyExplore/devel/./cmake.lock
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/move_base/share/move_base/cmake/move_baseConfig-version.cmake /home/jaime/Desktop/DynamicEntropyExplore/devel/share/move_base/cmake/move_baseConfig-version.cmake
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/move_base/share/move_base/cmake/move_baseConfig.cmake /home/jaime/Desktop/DynamicEntropyExplore/devel/share/move_base/cmake/move_baseConfig.cmake
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/move_base/share/move_base/docs/MoveBaseConfig.dox /home/jaime/Desktop/DynamicEntropyExplore/devel/share/move_base/docs/MoveBaseConfig.dox
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/move_base/share/move_base/docs/MoveBaseConfig-usage.dox /home/jaime/Desktop/DynamicEntropyExplore/devel/share/move_base/docs/MoveBaseConfig-usage.dox
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/move_base/share/move_base/docs/MoveBaseConfig.wikidoc /home/jaime/Desktop/DynamicEntropyExplore/devel/share/move_base/docs/MoveBaseConfig.wikidoc
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/move_base/include/move_base/MoveBaseConfig.h /home/jaime/Desktop/DynamicEntropyExplore/devel/include/move_base/MoveBaseConfig.h
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/move_base/lib/libmove_base.so /home/jaime/Desktop/DynamicEntropyExplore/devel/lib/libmove_base.so
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/move_base/lib/python2.7/dist-packages/move_base/__init__.py /home/jaime/Desktop/DynamicEntropyExplore/devel/lib/python2.7/dist-packages/move_base/__init__.py
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/move_base/lib/python2.7/dist-packages/move_base/cfg/MoveBaseConfig.py /home/jaime/Desktop/DynamicEntropyExplore/devel/lib/python2.7/dist-packages/move_base/cfg/MoveBaseConfig.py
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/move_base/lib/python2.7/dist-packages/move_base/cfg/__init__.py /home/jaime/Desktop/DynamicEntropyExplore/devel/lib/python2.7/dist-packages/move_base/cfg/__init__.py
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/move_base/lib/pkgconfig/move_base.pc /home/jaime/Desktop/DynamicEntropyExplore/devel/lib/pkgconfig/move_base.pc
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/move_base/lib/move_base/move_base /home/jaime/Desktop/DynamicEntropyExplore/devel/lib/move_base/move_base

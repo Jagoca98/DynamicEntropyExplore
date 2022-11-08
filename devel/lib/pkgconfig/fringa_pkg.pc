@@ -1,0 +1,1 @@
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/fringa_pkg/lib/pkgconfig/fringa_pkg.pc

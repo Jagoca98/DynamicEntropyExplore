@@ -1,0 +1,1 @@
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/navfn/share/navfn/cmake/navfnConfig-version.cmake

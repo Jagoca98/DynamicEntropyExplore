@@ -1,0 +1,5 @@
+husky/husky_navigation
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/husky_navigation/cmake.lock /home/jaime/Desktop/DynamicEntropyExplore/devel/./cmake.lock
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/husky_navigation/share/husky_navigation/cmake/husky_navigationConfig-version.cmake /home/jaime/Desktop/DynamicEntropyExplore/devel/share/husky_navigation/cmake/husky_navigationConfig-version.cmake
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/husky_navigation/share/husky_navigation/cmake/husky_navigationConfig.cmake /home/jaime/Desktop/DynamicEntropyExplore/devel/share/husky_navigation/cmake/husky_navigationConfig.cmake
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/husky_navigation/lib/pkgconfig/husky_navigation.pc /home/jaime/Desktop/DynamicEntropyExplore/devel/lib/pkgconfig/husky_navigation.pc

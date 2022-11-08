@@ -1,0 +1,6 @@
+navigation/rotate_recovery
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/rotate_recovery/cmake.lock /home/jaime/Desktop/DynamicEntropyExplore/devel/./cmake.lock
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/rotate_recovery/share/rotate_recovery/cmake/rotate_recoveryConfig-version.cmake /home/jaime/Desktop/DynamicEntropyExplore/devel/share/rotate_recovery/cmake/rotate_recoveryConfig-version.cmake
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/rotate_recovery/share/rotate_recovery/cmake/rotate_recoveryConfig.cmake /home/jaime/Desktop/DynamicEntropyExplore/devel/share/rotate_recovery/cmake/rotate_recoveryConfig.cmake
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/rotate_recovery/lib/librotate_recovery.so /home/jaime/Desktop/DynamicEntropyExplore/devel/lib/librotate_recovery.so
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/rotate_recovery/lib/pkgconfig/rotate_recovery.pc /home/jaime/Desktop/DynamicEntropyExplore/devel/lib/pkgconfig/rotate_recovery.pc

@@ -1,0 +1,5 @@
+husky/husky_bringup
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/husky_bringup/cmake.lock /home/jaime/Desktop/DynamicEntropyExplore/devel/./cmake.lock
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/husky_bringup/share/husky_bringup/cmake/husky_bringupConfig-version.cmake /home/jaime/Desktop/DynamicEntropyExplore/devel/share/husky_bringup/cmake/husky_bringupConfig-version.cmake
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/husky_bringup/share/husky_bringup/cmake/husky_bringupConfig.cmake /home/jaime/Desktop/DynamicEntropyExplore/devel/share/husky_bringup/cmake/husky_bringupConfig.cmake
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/husky_bringup/lib/pkgconfig/husky_bringup.pc /home/jaime/Desktop/DynamicEntropyExplore/devel/lib/pkgconfig/husky_bringup.pc
