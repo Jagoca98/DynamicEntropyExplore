@@ -26,6 +26,7 @@ This is research code, expect that it changes often and any fitness for a partic
 
 ### Publications
 
+This work was used in an academic context.
 If you use this work in an academic context, please cite the following publication(s):
 
 * P. Fankhauser, M. Bloesch, C. Gehring, M. Hutter, and R. Siegwart: **PAPER TITLE**. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2015. ([PDF](http://dx.doi.org/10.3929/ethz-a-010173654))
@@ -43,74 +44,46 @@ If you use this work in an academic context, please cite the following publicati
 
 ### Installation from Packages
 
-To install all packages from the this repository as Debian packages use
+To install all packages from the this repository use `rosdep`:
 
-    sudo apt-get install ros-noetic-...
+	sudo rosdep install --from-paths src --ignore-src -r -y
     
-Or better, use `rosdep`:
-
-	sudo rosdep install --from-paths src
 
 ### Building from Source
 
 #### Dependencies
 
-- [Robot Operating System (ROS)](http://wiki.ros.org) (middleware for robotics),
-- [Eigen] (linear algebra library)
+- [Robot Operating System (ROS)](http://wiki.ros.org) (middleware for robotics)
+- [Catkin Tools](https://catkin-tools.readthedocs.io/en/latest/index.html)
 
-	sudo rosdep install --from-paths src
+		sudo apt-get update
+		sudo apt-get install python3-catkin-tools
+	
 
 #### Building
 
 To build from source, clone the latest version from this repository into your catkin workspace and compile the package using
 
-	cd catkin_workspace/src
-	git clone https://github.com/ethz-asl/ros_best_practices.git
-	cd ../
+	git clone https://github.com/Jagoca98/DynamicEntropyExplore.git
+	cd DynamicEntropyExplore/src
 	rosdep install --from-paths . --ignore-src
-	catkin_make
-
-### Running in Docker
-
-Docker is a great way to run an application with all dependencies and libraries bundles together. 
-Make sure to [install Docker](https://docs.docker.com/get-docker/) first. 
-
-First, spin up a simple container:
-
-	docker run -ti --rm --name ros-container ros:noetic bash
-	
-This downloads the `ros:noetic` image from the Docker Hub, indicates that it requires an interactive terminal (`-t, -i`), gives it a name (`--name`), removes it after you exit the container (`--rm`) and runs a command (`bash`).
-
-Now, create a catkin workspace, clone the package, build it, done!
-
-	apt-get update && apt-get install -y git
-	mkdir -p /ws/src && cd /ws/src
-	git clone https://github.com/leggedrobotics/ros_best_practices.git
-	cd ..
-	rosdep install --from-path src
-	catkin_make
-	source devel/setup.bash
-	roslaunch ros_package_template ros_package_template.launch
-
-### Unit Tests
-
-Run the unit tests with
-
-	catkin_make run_tests_ros_package_template
-
-### Static code analysis
-
-Run the static code analysis with
-
-	catkin_make roslint_ros_package_template
+	catkin build
 
 ## Usage
 
-Describe the quickest way to run this software, for example:
+This package allow to perform an exploration in 2 different environments. The first environment is the clearpath_playpen.world of husky package. The setup node will setup the world file and the needed nodes. The exploration node will start the exploration of the environment.
 
-Run the main node with
+Run the setup node for the clearpath_playpen.world:
 
-	roslaunch ros_package_template ros_package_template.launch
+	roslaunch fringa_pkg todo.launch
+
+or run the office.world instead:
+
+	roslaunch fringa_pkg office_todo.launch
+
+Run the exploration node in another terminal
+
+	roslaunch fringa_pkg explore_costmap.launch
 
 ## Config files
 
