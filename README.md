@@ -71,33 +71,28 @@ To build from source, clone the latest version from this repository into your ca
 
 ## Usage
 
-This package allow to perform an exploration in 2 different environments. The first environment is the clearpath_playpen.world of husky package. The setup node will setup the world file and the needed nodes. The exploration node will start the exploration of the environment.
+This package allow to perform an exploration in 2 different environments. The setup node will setup the world file and the needed nodes to perform an exploration. The exploration node will start the exploration of the environment.
 
-Run the setup node for the clearpath_playpen.world:
+Run the setup node for the `clearpath_playpen.world`:
+
+![Example image](assets/clearpath_playpen.jpg)
 
 	roslaunch fringa_pkg todo.launch
 
-or run the office.world instead:
+or run the `office.world` instead:
+
+![Example image](assets/office_world.png)
 
 	roslaunch fringa_pkg office_todo.launch
 
-Run the exploration node in another terminal
+The explore_costmap launch will start the run the exploration. This must be run in another terminal
 
 	roslaunch fringa_pkg explore_costmap.launch
 
-## Config files
-
-Config file folder/set 1
-
-* **config_file_1.yaml** Shortly explain the content of this config file
-
-Config file folder/set 2
-
-* **...**
 
 ## Launch files
 
-* **launch_file_1.launch:** shortly explain what is launched (e.g standard simulation, simulation with gdb,...)
+* **explore_costmap.launch:** shortly explain what is launched (e.g standard simulation, simulation with gdb,...)
 
      Argument set 1
 
