@@ -1,0 +1,16 @@
+navigation/amcl
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/amcl/cmake.lock /home/jaime/Desktop/DynamicEntropyExplore/devel/./cmake.lock
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/amcl/share/amcl/cmake/amclConfig.cmake /home/jaime/Desktop/DynamicEntropyExplore/devel/share/amcl/cmake/amclConfig.cmake
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/amcl/share/amcl/cmake/amclConfig-version.cmake /home/jaime/Desktop/DynamicEntropyExplore/devel/share/amcl/cmake/amclConfig-version.cmake
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/amcl/share/amcl/docs/AMCLConfig-usage.dox /home/jaime/Desktop/DynamicEntropyExplore/devel/share/amcl/docs/AMCLConfig-usage.dox
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/amcl/share/amcl/docs/AMCLConfig.wikidoc /home/jaime/Desktop/DynamicEntropyExplore/devel/share/amcl/docs/AMCLConfig.wikidoc
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/amcl/share/amcl/docs/AMCLConfig.dox /home/jaime/Desktop/DynamicEntropyExplore/devel/share/amcl/docs/AMCLConfig.dox
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/amcl/include/amcl/AMCLConfig.h /home/jaime/Desktop/DynamicEntropyExplore/devel/include/amcl/AMCLConfig.h
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/amcl/lib/libamcl_sensors.so /home/jaime/Desktop/DynamicEntropyExplore/devel/lib/libamcl_sensors.so
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/amcl/lib/libamcl_map.so /home/jaime/Desktop/DynamicEntropyExplore/devel/lib/libamcl_map.so
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/amcl/lib/libamcl_pf.so /home/jaime/Desktop/DynamicEntropyExplore/devel/lib/libamcl_pf.so
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/amcl/lib/python2.7/dist-packages/amcl/__init__.py /home/jaime/Desktop/DynamicEntropyExplore/devel/lib/python2.7/dist-packages/amcl/__init__.py
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/amcl/lib/python2.7/dist-packages/amcl/cfg/AMCLConfig.py /home/jaime/Desktop/DynamicEntropyExplore/devel/lib/python2.7/dist-packages/amcl/cfg/AMCLConfig.py
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/amcl/lib/python2.7/dist-packages/amcl/cfg/__init__.py /home/jaime/Desktop/DynamicEntropyExplore/devel/lib/python2.7/dist-packages/amcl/cfg/__init__.py
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/amcl/lib/amcl/amcl /home/jaime/Desktop/DynamicEntropyExplore/devel/lib/amcl/amcl
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/amcl/lib/pkgconfig/amcl.pc /home/jaime/Desktop/DynamicEntropyExplore/devel/lib/pkgconfig/amcl.pc

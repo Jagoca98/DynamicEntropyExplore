@@ -1,0 +1,5 @@
+husky/husky_control
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/husky_control/cmake.lock /home/jaime/Desktop/DynamicEntropyExplore/devel/./cmake.lock
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/husky_control/share/husky_control/cmake/husky_controlConfig.cmake /home/jaime/Desktop/DynamicEntropyExplore/devel/share/husky_control/cmake/husky_controlConfig.cmake
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/husky_control/share/husky_control/cmake/husky_controlConfig-version.cmake /home/jaime/Desktop/DynamicEntropyExplore/devel/share/husky_control/cmake/husky_controlConfig-version.cmake
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/husky_control/lib/pkgconfig/husky_control.pc /home/jaime/Desktop/DynamicEntropyExplore/devel/lib/pkgconfig/husky_control.pc

@@ -92,19 +92,67 @@ The explore_costmap launch will start the run the exploration. This must be run 
 
 ## Launch files
 
+* **todo.launch:** shortly explain what is launched (e.g standard simulation, simulation with gdb,...)
+
+* **office_todo.launch:** shortly explain what is launched (e.g standard simulation, simulation with gdb,...)
+
 * **explore_costmap.launch:** shortly explain what is launched (e.g standard simulation, simulation with gdb,...)
 
-     Argument set 1
+     Parameters
 
      - **`robot_base_frame`**  (string, default: `"base_link"`)
 
-	 Short description (e.g. as commented in launch file). Default: `default_value`.
+	 WIP Short description (e.g. as commented in launch file). Default: `default_value`.
 
-    Argument set 2
+     - **`costmap_topic`**  (string, default: `"move_base/global_costmap/costmap"`)
 
-    - **`...`**
+	 WIP Short description (e.g. as commented in launch file). Default: `default_value`.	 
 
-* **...**
+     - **`costmap_updates_topic`**  (string, default: `"move_base/global_costmap/costmap_updates"`)
+
+	 WIP Short description (e.g. as commented in launch file). Default: `default_value`.
+
+	 - **`visualize`**  (bool, default: `"true"`)
+
+	 WIP Short description (e.g. as commented in launch file). Default: `default_value`.
+
+	 - **`planner_frequency`**  (float, default: `"0.33"`)
+
+	 WIP Short description (e.g. as commented in launch file). Default: `default_value`.
+
+	 - **`progress_timeout`**  (float, default: `"30.0"`)
+
+	 WIP Short description (e.g. as commented in launch file). Default: `default_value`.
+
+	 - **`potential_scale`**  (float, default: `"10"`)
+
+	 WIP Short description (e.g. as commented in launch file). Default: `default_value`.
+
+	 - **`gain_scale`**  (float, default: `"0"`)
+
+	 WIP Short description (e.g. as commented in launch file). Default: `default_value`.
+
+	 - **`gain_entropy`**  (float, default: `"0.001"`)
+
+	 WIP Short description (e.g. as commented in launch file). Default: `default_value`.
+
+	 - **`gain_obstacle`**  (float, default: `"10"`)
+
+	 WIP Short description (e.g. as commented in launch file). Default: `default_value`.
+
+	 - **`min_frontier_size`**  (float, default: `"0.5"`)
+
+	 WIP Short description (e.g. as commented in launch file). Default: `default_value`.
+
+	 - **`distance_tolerance`**  (float, default: `"3"`)
+
+	 WIP Short description (e.g. as commented in launch file). Default: `default_value`.
+
+	 - **`expected_radius`**  (float, default: `"2"`)
+
+	 WIP Short description (e.g. as commented in launch file). Default: `default_value`.
+
+	 WIP Hacerlo con explore solo
 
 ## Nodes
 

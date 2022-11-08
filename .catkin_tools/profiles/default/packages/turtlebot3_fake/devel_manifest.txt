@@ -1,0 +1,6 @@
+turtlebot3_simulations/turtlebot3_fake
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/turtlebot3_fake/cmake.lock /home/jaime/Desktop/DynamicEntropyExplore/devel/./cmake.lock
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/turtlebot3_fake/share/turtlebot3_fake/cmake/turtlebot3_fakeConfig.cmake /home/jaime/Desktop/DynamicEntropyExplore/devel/share/turtlebot3_fake/cmake/turtlebot3_fakeConfig.cmake
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/turtlebot3_fake/share/turtlebot3_fake/cmake/turtlebot3_fakeConfig-version.cmake /home/jaime/Desktop/DynamicEntropyExplore/devel/share/turtlebot3_fake/cmake/turtlebot3_fakeConfig-version.cmake
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/turtlebot3_fake/lib/turtlebot3_fake/turtlebot3_fake_node /home/jaime/Desktop/DynamicEntropyExplore/devel/lib/turtlebot3_fake/turtlebot3_fake_node
+/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/turtlebot3_fake/lib/pkgconfig/turtlebot3_fake.pc /home/jaime/Desktop/DynamicEntropyExplore/devel/lib/pkgconfig/turtlebot3_fake.pc
