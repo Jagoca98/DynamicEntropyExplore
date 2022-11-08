@@ -96,7 +96,9 @@ The explore_costmap launch will start the run the exploration. This must be run 
 
      Argument set 1
 
-     - **`argument_1`** Short description (e.g. as commented in launch file). Default: `default_value`.
+     - **`robot_base_frame`**  (string, default: `"base_link"`)
+
+	 Short description (e.g. as commented in launch file). Default: `default_value`.
 
     Argument set 2
 
