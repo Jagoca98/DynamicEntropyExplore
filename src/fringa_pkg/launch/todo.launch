@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+
+<launch>
+    <arg name="world_name" default="clearpath_playpen"/>
+    <!-- <arg name="world_name" default="tinynomad"/> -->
+    
+    <include file="$(find gazebo_ros)/launch/empty_world.launch">
+        <arg name="world_name" value="/home/jaime/Desktop/tfg/src/husky/husky_gazebo/worlds/$(arg world_name).world"/> <!-- world_name is wrt GAZEBO_RESOURCE_PATH environment variable -->
+        <arg name="paused" value="false"/>
+        <arg name="use_sim_time" value="true"/>
+        <arg name="gui" value="true"/>
+        <arg name="headless" value="false"/>
+        <arg name="debug" value="false"/>
+    </include>
+
+    <include file="$(find husky_gazebo)/launch/spawn_husky.launch">
+    </include>
+
+    <!-- <include file="$(find husky_navigation)/launch/gmapping.launch">
+        <arg name="scan_topic" default="$(eval optenv('HUSKY_LASER_TOPIC', 'scan'))" />
+    </include> -->
+
+    <include file="$(find husky_navigation)/launch/move_base.launch">
+        <arg name="no_static_map" value="true"/>
+    </include>
+
+
+    <!-- <node name="rviz" pkg="rviz" type="rviz" args="-d $/opt/ros/melodic/share/rviz/path_planning.rviz"/> -->
+
+</launch>

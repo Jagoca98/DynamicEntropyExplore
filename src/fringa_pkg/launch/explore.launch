@@ -1,0 +1,19 @@
+<launch>
+<node pkg="fringa_pkg" type="fringa" respawn="false" name="frontiered_IG" output="screen">
+  <param name="robot_base_frame" value="base_link"/>
+  <param name="costmap_topic" value="map"/>
+  <param name="costmap_updates_topic" value="map_updates"/>
+  <param name="visualize" value="true"/>
+  <param name="planner_frequency" value="0.1"/>
+  <param name="progress_timeout" value="30.0"/>
+  <param name="potential_scale" value="0"/>
+  <param name="orientation_scale" value="0.0"/>
+  <param name="gain_scale" value="0"/>
+  <param name="gain_entropy" value="2.0"/>    <!-- Ganancia proporcional de la entropia -->
+  <param name="gain_obstacle" value="100.0"/>  <!-- Penalizacion a obstaculos de alrededor -->
+  <param name="transform_tolerance" value="0.3"/>
+  <param name="min_frontier_size" value="0.5"/>
+  <param name="distance_tolerance" value="2.5"/>
+  <param name="expected_radius" value="5.5"/>
+</node>
+</launch>

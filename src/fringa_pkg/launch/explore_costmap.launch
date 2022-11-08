@@ -1,0 +1,19 @@
+<launch>
+  <node pkg="fringa_pkg" type="fringa" respawn="false" name="frontiered_IG" output="screen">
+    <param name="robot_base_frame" value="base_link"/>
+    <param name="costmap_topic" value="move_base/global_costmap/costmap"/>
+    <param name="costmap_updates_topic" value="move_base/global_costmap/costmap_updates"/>
+    <param name="visualize" value="true"/> <!-- Permite visualizar en rviz -->
+    <param name="planner_frequency" value="0.33"/> <!-- Frecuencia de replanning -->
+    <param name="progress_timeout" value="30.0"/> <!-- Tiempo para las recovery actions -->
+    <param name="potential_scale" value="10.0"/> <!-- Peso distancia euclidea al nodo frontera -->
+    <param name="orientation_scale" value="0.0"/> 
+    <param name="gain_scale" value="0.0"/>  <!-- Peso tamano de frontera -->
+    <param name="gain_entropy" value="0.001"/> <!-- Peso de la ganancia de informacion  -->
+    <param name="gain_obstacle" value="20.0"/> <!-- Peso de la penalizacion de obstaculos -->
+    <param name="transform_tolerance" value="0.3"/>
+    <param name="min_frontier_size" value="0.5"/> <!--Tamano minimo de la frontera  -->
+    <param name="distance_tolerance" value="3"/> <!-- Distancia para hacer replanning -->
+    <param name="expected_radius" value="2"/> <!-- Distancia de funcion de expectativas -->
+  </node>
+</launch>
