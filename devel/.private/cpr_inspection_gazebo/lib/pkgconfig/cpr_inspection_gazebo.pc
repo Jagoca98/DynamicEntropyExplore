@@ -1,8 +1,0 @@
-prefix=/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/cpr_inspection_gazebo
-
-Name: cpr_inspection_gazebo
-Description: Description of cpr_inspection_gazebo
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

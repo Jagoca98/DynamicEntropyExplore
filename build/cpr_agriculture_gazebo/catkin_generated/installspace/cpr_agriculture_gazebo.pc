@@ -1,8 +1,0 @@
-prefix=/home/jaime/Desktop/DynamicEntropyExplore/install
-
-Name: cpr_agriculture_gazebo
-Description: Description of cpr_agriculture_gazebo
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

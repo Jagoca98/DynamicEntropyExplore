@@ -1,8 +1,0 @@
-prefix=/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/cpr_obstacle_gazebo
-
-Name: cpr_obstacle_gazebo
-Description: Description of cpr_obstacle_gazebo
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

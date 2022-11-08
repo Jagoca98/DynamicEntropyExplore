@@ -1,1 +1,0 @@
-/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/cpr_obstacle_gazebo/lib/pkgconfig/cpr_obstacle_gazebo.pc

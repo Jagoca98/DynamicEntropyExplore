@@ -1,1 +1,0 @@
-/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/move_base/lib/pkgconfig/move_base.pc

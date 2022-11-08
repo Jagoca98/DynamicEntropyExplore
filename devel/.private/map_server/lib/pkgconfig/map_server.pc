@@ -1,8 +1,0 @@
-prefix=/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/map_server
-
-Name: map_server
-Description: Description of map_server
-Version: 1.16.7
-Cflags: -I/home/jaime/Desktop/DynamicEntropyExplore/src/navigation/map_server/include
-Libs: -L${prefix}/lib -lmap_server_image_loader
-Requires: roscpp nav_msgs tf2

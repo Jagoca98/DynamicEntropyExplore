@@ -1,1 +1,0 @@
-/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/cpr_agriculture_gazebo/lib/pkgconfig/cpr_agriculture_gazebo.pc

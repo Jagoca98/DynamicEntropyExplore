@@ -1,1 +1,0 @@
-/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/husky_msgs/share/gennodejs/ros/husky_msgs/msg/HuskyStatus.js

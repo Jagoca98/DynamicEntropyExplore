@@ -1,1 +1,0 @@
-/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/rotate_recovery/lib/pkgconfig/rotate_recovery.pc

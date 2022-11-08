@@ -1,8 +1,0 @@
-prefix=/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/gazebo_race_modules
-
-Name: gazebo_race_modules
-Description: Description of gazebo_race_modules
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

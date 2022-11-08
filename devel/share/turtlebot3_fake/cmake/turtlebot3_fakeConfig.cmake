@@ -1,1 +1,0 @@
-/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/turtlebot3_fake/share/turtlebot3_fake/cmake/turtlebot3_fakeConfig.cmake

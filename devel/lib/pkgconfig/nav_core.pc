@@ -1,1 +1,0 @@
-/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/nav_core/lib/pkgconfig/nav_core.pc

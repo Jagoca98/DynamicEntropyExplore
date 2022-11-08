@@ -1,1 +1,0 @@
-/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/navfn/share/common-lisp/ros/navfn/srv/navfn-srv.asd

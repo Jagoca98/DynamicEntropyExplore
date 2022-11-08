@@ -1,8 +1,0 @@
-prefix=/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/husky_viz
-
-Name: husky_viz
-Description: Description of husky_viz
-Version: 0.4.12
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

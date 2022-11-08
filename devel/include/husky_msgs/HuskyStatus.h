@@ -1,1 +1,0 @@
-/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/husky_msgs/include/husky_msgs/HuskyStatus.h
