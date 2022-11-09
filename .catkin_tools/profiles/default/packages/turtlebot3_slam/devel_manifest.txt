@@ -1,6 +1,0 @@
-turtlebot3/turtlebot3_slam
-/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/turtlebot3_slam/cmake.lock /home/jaime/Desktop/DynamicEntropyExplore/devel/./cmake.lock
-/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/turtlebot3_slam/share/turtlebot3_slam/cmake/turtlebot3_slamConfig-version.cmake /home/jaime/Desktop/DynamicEntropyExplore/devel/share/turtlebot3_slam/cmake/turtlebot3_slamConfig-version.cmake
-/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/turtlebot3_slam/share/turtlebot3_slam/cmake/turtlebot3_slamConfig.cmake /home/jaime/Desktop/DynamicEntropyExplore/devel/share/turtlebot3_slam/cmake/turtlebot3_slamConfig.cmake
-/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/turtlebot3_slam/lib/turtlebot3_slam/flat_world_imu_node /home/jaime/Desktop/DynamicEntropyExplore/devel/lib/turtlebot3_slam/flat_world_imu_node
-/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/turtlebot3_slam/lib/pkgconfig/turtlebot3_slam.pc /home/jaime/Desktop/DynamicEntropyExplore/devel/lib/pkgconfig/turtlebot3_slam.pc

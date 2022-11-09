@@ -1,5 +1,0 @@
-husky/husky_viz
-/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/husky_viz/cmake.lock /home/jaime/Desktop/DynamicEntropyExplore/devel/./cmake.lock
-/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/husky_viz/share/husky_viz/cmake/husky_vizConfig.cmake /home/jaime/Desktop/DynamicEntropyExplore/devel/share/husky_viz/cmake/husky_vizConfig.cmake
-/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/husky_viz/share/husky_viz/cmake/husky_vizConfig-version.cmake /home/jaime/Desktop/DynamicEntropyExplore/devel/share/husky_viz/cmake/husky_vizConfig-version.cmake
-/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/husky_viz/lib/pkgconfig/husky_viz.pc /home/jaime/Desktop/DynamicEntropyExplore/devel/lib/pkgconfig/husky_viz.pc

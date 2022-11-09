@@ -1,6 +1,0 @@
-navigation/voxel_grid
-/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/voxel_grid/cmake.lock /home/jaime/Desktop/DynamicEntropyExplore/devel/./cmake.lock
-/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/voxel_grid/share/voxel_grid/cmake/voxel_gridConfig.cmake /home/jaime/Desktop/DynamicEntropyExplore/devel/share/voxel_grid/cmake/voxel_gridConfig.cmake
-/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/voxel_grid/share/voxel_grid/cmake/voxel_gridConfig-version.cmake /home/jaime/Desktop/DynamicEntropyExplore/devel/share/voxel_grid/cmake/voxel_gridConfig-version.cmake
-/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/voxel_grid/lib/libvoxel_grid.so /home/jaime/Desktop/DynamicEntropyExplore/devel/lib/libvoxel_grid.so
-/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/voxel_grid/lib/pkgconfig/voxel_grid.pc /home/jaime/Desktop/DynamicEntropyExplore/devel/lib/pkgconfig/voxel_grid.pc

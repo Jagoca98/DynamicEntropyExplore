@@ -1,6 +1,0 @@
-turtlebot3/turtlebot3_bringup
-/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/turtlebot3_bringup/cmake.lock /home/jaime/Desktop/DynamicEntropyExplore/devel/./cmake.lock
-/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/turtlebot3_bringup/share/turtlebot3_bringup/cmake/turtlebot3_bringupConfig.cmake /home/jaime/Desktop/DynamicEntropyExplore/devel/share/turtlebot3_bringup/cmake/turtlebot3_bringupConfig.cmake
-/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/turtlebot3_bringup/share/turtlebot3_bringup/cmake/turtlebot3_bringupConfig-version.cmake /home/jaime/Desktop/DynamicEntropyExplore/devel/share/turtlebot3_bringup/cmake/turtlebot3_bringupConfig-version.cmake
-/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/turtlebot3_bringup/lib/pkgconfig/turtlebot3_bringup.pc /home/jaime/Desktop/DynamicEntropyExplore/devel/lib/pkgconfig/turtlebot3_bringup.pc
-/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/turtlebot3_bringup/lib/turtlebot3_bringup/turtlebot3_diagnostics /home/jaime/Desktop/DynamicEntropyExplore/devel/lib/turtlebot3_bringup/turtlebot3_diagnostics

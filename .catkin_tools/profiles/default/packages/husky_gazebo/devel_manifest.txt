@@ -1,5 +1,0 @@
-husky/husky_gazebo
-/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/husky_gazebo/cmake.lock /home/jaime/Desktop/DynamicEntropyExplore/devel/./cmake.lock
-/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/husky_gazebo/share/husky_gazebo/cmake/husky_gazeboConfig.cmake /home/jaime/Desktop/DynamicEntropyExplore/devel/share/husky_gazebo/cmake/husky_gazeboConfig.cmake
-/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/husky_gazebo/share/husky_gazebo/cmake/husky_gazeboConfig-version.cmake /home/jaime/Desktop/DynamicEntropyExplore/devel/share/husky_gazebo/cmake/husky_gazeboConfig-version.cmake
-/home/jaime/Desktop/DynamicEntropyExplore/devel/.private/husky_gazebo/lib/pkgconfig/husky_gazebo.pc /home/jaime/Desktop/DynamicEntropyExplore/devel/lib/pkgconfig/husky_gazebo.pc
