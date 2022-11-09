@@ -92,67 +92,66 @@ The explore_costmap launch will start the run the exploration. This must be run 
 
 ## Launch files
 
-* **todo.launch:** shortly explain what is launched (e.g standard simulation, simulation with gdb,...)
+* **todo.launch:** It loads the playpen environment to perform an exploration with the [husky](https://clearpathrobotics.com/husky-unmanned-ground-vehicle-robot/).
 
-* **office_todo.launch:** shortly explain what is launched (e.g standard simulation, simulation with gdb,...)
+* **office_todo.launch:** It loads the office environment to perform an exploration with the [turtlebot3](https://www.turtlebot.com/).
 
-* **explore_costmap.launch:** shortly explain what is launched (e.g standard simulation, simulation with gdb,...)
+* **explore_costmap.launch:** Provides exploration services offered by this package. Exploration will start immediately after node initialization. 
 
      Parameters
 
-     - **`robot_base_frame`**  (string, default: `"base_link"`)
+     - **`robot_base_frame`**  (string, default: `base_link`)
 
-	 WIP Short description (e.g. as commented in launch file). Default: `default_value`.
+	 The name of the base frame of the robot. This is used for determining robot position on map. Mandatory.
 
-     - **`costmap_topic`**  (string, default: `"move_base/global_costmap/costmap"`)
+     - **`costmap_topic`**  (string, default: `move_base/global_costmap/costmap`)
 
-	 WIP Short description (e.g. as commented in launch file). Default: `default_value`.	 
+	 Specifies topic of source [nav_msgs/OccupancyGrid]. Mandatory. 
 
-     - **`costmap_updates_topic`**  (string, default: `"move_base/global_costmap/costmap_updates"`)
+     - **`costmap_updates_topic`**  (string, default: `move_base/global_costmap/costmap_updates`)
 
-	 WIP Short description (e.g. as commented in launch file). Default: `default_value`.
+	 Specifies topic of source [map_msgs/OccupancyGridUpdate]. Not necessary if source of map is always publishing full updates, i.e. does not provide this topic.
 
-	 - **`visualize`**  (bool, default: `"true"`)
+	 - **`visualize`**  (bool, default: `true`)
 
-	 WIP Short description (e.g. as commented in launch file). Default: `default_value`.
+	 Specifies whether or not publish visualized frontiers. 
 
-	 - **`planner_frequency`**  (float, default: `"0.33"`)
+	 - **`planner_frequency`**  (double, default: `0.33`)
 
-	 WIP Short description (e.g. as commented in launch file). Default: `default_value`.
+	 Rate in Hz at which new frontiers will computed and goal reconsidered if `distance tolerance` allow it. 
 
-	 - **`progress_timeout`**  (float, default: `"30.0"`)
+	 - **`progress_timeout`**  (double, default: `30.0`)
 
-	 WIP Short description (e.g. as commented in launch file). Default: `default_value`.
+	 Time in seconds. When robot do not make any progress for progress_timeout, current goal will be abandoned. 
 
-	 - **`potential_scale`**  (float, default: `"10"`)
+	 - **`potential_scale`**  (double, default: `10`)
 
-	 WIP Short description (e.g. as commented in launch file). Default: `default_value`.
+	 Used for weighting frontiers. This multiplicative parameter affects frontier potential component of the frontier weight ($C_d$). 
 
-	 - **`gain_scale`**  (float, default: `"0"`)
+	 - **`gain_scale`**  (double, default: `0`)
 
-	 WIP Short description (e.g. as commented in launch file). Default: `default_value`.
+	 Used for weighting frontiers. This multiplicative parameter affects frontier gain component of the frontier weight (frontier size). 
 
-	 - **`gain_entropy`**  (float, default: `"0.001"`)
+	 - **`gain_entropy`**  (double, default: `0.01`)
 
-	 WIP Short description (e.g. as commented in launch file). Default: `default_value`.
+	 Used for weighting frontiers. This multiplicative parameter affects information gain component of the frontier weght ($C_i$).
 
-	 - **`gain_obstacle`**  (float, default: `"10"`)
+	 - **`gain_obstacle`**  (double, default: `10`)
 
-	 WIP Short description (e.g. as commented in launch file). Default: `default_value`.
+	 Used for weighting frontiers. This multiplicative parameter affects obstacle component of the frontier weght ($k_c$).
 
-	 - **`min_frontier_size`**  (float, default: `"0.5"`)
+	 - **`min_frontier_size`**  (double, default: `0.5`)
 
-	 WIP Short description (e.g. as commented in launch file). Default: `default_value`.
+	 Minimum size of the frontier to consider the frontier as the exploration goal. In meters. 
 
-	 - **`distance_tolerance`**  (float, default: `"3"`)
+	 - **`distance_tolerance`**  (double, default: `3`)
 
-	 WIP Short description (e.g. as commented in launch file). Default: `default_value`.
+	 Minimun distance to goal for replaning.
 
-	 - **`expected_radius`**  (float, default: `"2"`)
+	 - **`expected_radius`**  (double, default: `2`)
 
-	 WIP Short description (e.g. as commented in launch file). Default: `default_value`.
+	 Normal distance from the frontier to surroundings in which evaluates $f$ penalization and the probability modification function acts.
 
-	 WIP Hacerlo con explore solo
 
 ## Nodes
 
@@ -200,11 +199,17 @@ Reads temperature measurements and computed the average.
 
 ## Bugs & Feature Requests
 
-Please report bugs and request features using the [Issue Tracker](https://github.com/ethz-asl/ros_best_practices/issues).
+Please report bugs and request features using the [Issue Tracker](https://github.com/Jagoca98/DynamicEntropyExplore/issues).
 
 
 [ROS]: http://www.ros.org
 [rviz]: http://wiki.ros.org/rviz
-[Eigen]: http://eigen.tuxfamily.org
 [std_srvs/Trigger]: http://docs.ros.org/api/std_srvs/html/srv/Trigger.html
 [sensor_msgs/Temperature]: http://docs.ros.org/api/sensor_msgs/html/msg/Temperature.html
+[visualization_msgs/Marker]: http://docs.ros.org/api/visualization_msgs/html/msg/Marker.html
+[geometry_msgs/PolygonStamped]: http://docs.ros.org/api/geometry_msgs/html/msg/PolygonStamped.html
+[nav_msgs/OccupancyGrid]: http://docs.ros.org/api/nav_msgs/html/msg/OccupancyGrid.html
+[nav_msgs/GridCells]: http://docs.ros.org/api/nav_msgs/html/msg/GridCells.html
+[ROS Filters]: http://wiki.ros.org/filters
+[EigenLab]: https://github.com/leggedrobotics/EigenLab
+[map_msgs/OccupancyGridUpdate]: http://docs.ros.org/en/jade/api/map_msgs/html/msg/OccupancyGridUpdate.html
