@@ -29,17 +29,18 @@ This is research code, expect that it changes often and any fitness for a partic
 This work was used in an academic context.
 If you use this work in an academic context, please cite the following publication(s):
 
-* P. Fankhauser, M. Bloesch, C. Gehring, M. Hutter, and R. Siegwart: **PAPER TITLE**. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2015. ([PDF](http://dx.doi.org/10.3929/ethz-a-010173654))
+* J. Godoy-Calvo, D Lin-Yang, R. Vázquez-Martín and A. García-Cerezo: **EXPLORACIÓN DE ENTORNOS DESCONOCIDOS MEDIANTE VEHÍCULOS TERRESTRES BASADA EN LA ENTROPÍA**. XII Jornadas Nacionales de Robótica, 2022. ISBN 978-84-09-41095-8. pp. 118-123
 
         @book{Godoy-Calvo:2022,
-            author = {Godoy-Calvo, Jaime and Lin-Yang, Dahui and Váquez-Martín, Ricardo and García-Cerezo, Alfonso},
+            author = {Jaime Godoy-Calvo and Dahui Lin-Yang and Ricardo Váquez-Martín and Alfonso García-Cerezo},
 			booktitle = {Jornadas de Rob{\'o}tica, Educaci{\'o}n y Bioingenier{\'i}a},
             title = {Exploraci{\'o}n de entornos desconocidos mediante veh{\'i}culos terrestres basada en la entrop{\'i}a},
-			pages = {},
+			pages = {118--123},
             publisher = {Dpto. de Ingenier{\'i}a de Sistemas y Autom{\'a}tica Universidad de M{\'a}laga},
             year = {2022},
 			ISBN = {978-84-09-41095-8},
 			address = {M{\'a}laga},
+			url = {https://www.researchgate.net/publication/365231770_EXPLORACION_DE_ENTORNOS_DESCONOCIDOS_MEDIANTE_VEHICULOS_TERRESTRES_BASADA_EN_LA_ENTROPIA}
         }
 
 
@@ -170,73 +171,53 @@ $$U = C_d \cdot d - C_i \cdot f \cdot I$$
 
 * **`/clock`** ([rosgraph_msgs/Clock])
 
-	The temperature measurements from which the average is computed.
+	WIP
 
 * **`/move_base/feedback`** ([move_base_msgs/MoveBaseActionFeedback])
 
-	The temperature measurements from which the average is computed.
+	WIP
 
 * **`/move_base/global_costmap/costmap`** ([nav_msgs/OccupancyGrid])
 
-	The temperature measurements from which the average is computed.
+	WIP
 
 * **`/move_base/global_costmap/costmap_updates`** ([map_msgs/OccupancyGridUpdate])
 
-	The temperature measurements from which the average is computed.
+	WIP
 
 * **`/move_base/result`** ([move_base_msgs/MoveBaseActionResult])
 
-	The temperature measurements from which the average is computed.
+	WIP
 
 * **`/move_base/status`** ([actionlib_msgs/GoalStatusArray])
 
-	The temperature measurements from which the average is computed.
+	WIP
 
 * **`/tf`** ([tf/tfMessage])
 
-	The temperature measurements from which the average is computed.
+	WIP
 
 * **`/tf_static`** ([tf2_msgs/TFMessage])
 
-	The temperature measurements from which the average is computed.
+	WIP
 
 #### Published Topics
 
 * **`/frontiered_IG/frontiers`** ([visualization_msgs/MarkerArray])
 
-	The temperature measurements from which the average is computed.
+	WIP
 
 * **`/frontiered_IG/radios`** ([visualization_msgs/MarkerArray])
 
-	The temperature measurements from which the average is computed.
+	WIP
 
 * **`/move_base/cancel`** ([actionlib_msgs/GoalID])
 
-	The temperature measurements from which the average is computed.
+	WIP
 
 * **`/move_base/goal`** ([move_base_msgs/MoveBaseActionGoal])
 
-	The temperature measurements from which the average is computed.
-
-
-#### Services
-
-* **`get_average`** ([std_srvs/Trigger])
-
-	Returns information about the current average. For example, you can trigger the computation from the console with
-
-		rosservice call /ros_package_template/get_average
-
-
-#### Parameters
-
-* **`subscriber_topic`** (string, default: "/temperature")
-
-	The name of the input topic.
-
-* **`cache_size`** (int, default: 200, min: 0, max: 1000)
-
-	The size of the cache.
+	WIP
 
 
 ## Bugs & Feature Requests
