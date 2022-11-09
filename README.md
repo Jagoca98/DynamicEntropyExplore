@@ -31,12 +31,15 @@ If you use this work in an academic context, please cite the following publicati
 
 * P. Fankhauser, M. Bloesch, C. Gehring, M. Hutter, and R. Siegwart: **PAPER TITLE**. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2015. ([PDF](http://dx.doi.org/10.3929/ethz-a-010173654))
 
-        @inproceedings{Fankhauser2015,
-            author = {Fankhauser, P\'{e}ter and Hutter, Marco},
-            booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
-            title = {{PAPER TITLE}},
-            publisher = {IEEE},
-            year = {2015}
+        @book{Godoy-Calvo:2022,
+            author = {Godoy-Calvo, Jaime and Lin-Yang, Dahui and Váquez-Martín, Ricardo and García-Cerezo, Alfonso},
+			booktitle = {Jornadas de Rob{\'o}tica, Educaci{\'o}n y Bioingenier{\'i}a},
+            title = {Exploraci{\'o}n de entornos desconocidos mediante veh{\'i}culos terrestres basada en la entrop{\'i}a},
+			pages = {},
+            publisher = {Dpto. de Ingenier{\'i}a de Sistemas y Autom{\'a}tica Universidad de M{\'a}laga},
+            year = {2022},
+			ISBN = {978-84-09-41095-8},
+			address = {M{\'a}laga},
         }
 
 
@@ -199,19 +202,19 @@ $$U = C_d \cdot d - C_i \cdot f \cdot I$$
 
 #### Published Topics
 
-* **`/frontiered_IG/frontiers`** ([tf2_msgs/TFMessage])
+* **`/frontiered_IG/frontiers`** ([visualization_msgs/MarkerArray])
 
 	The temperature measurements from which the average is computed.
 
-* **`/frontiered_IG/radios`** ([tf2_msgs/TFMessage])
+* **`/frontiered_IG/radios`** ([visualization_msgs/MarkerArray])
 
 	The temperature measurements from which the average is computed.
 
-* **`/move_base/cancel`** ([tf2_msgs/TFMessage])
+* **`/move_base/cancel`** ([actionlib_msgs/GoalID])
 
 	The temperature measurements from which the average is computed.
 
-* **`/move_base/goal`** ([tf2_msgs/TFMessage])
+* **`/move_base/goal`** ([move_base_msgs/MoveBaseActionGoal])
 
 	The temperature measurements from which the average is computed.
 
@@ -258,3 +261,6 @@ Please report bugs and request features using the [Issue Tracker](https://github
 [move_base_msgs/MoveBaseActionResult]:http://docs.ros.org/en/fuerte/api/move_base_msgs/html/msg/MoveBaseActionResult.html
 [rosgraph_msgs/Clock]:http://docs.ros.org/en/melodic/api/rosgraph_msgs/html/msg/Clock.html
 [move_base_msgs/MoveBaseActionFeedback]:http://docs.ros.org/en/fuerte/api/move_base_msgs/html/msg/MoveBaseActionFeedback.html
+[visualization_msgs/MarkerArray]:http://docs.ros.org/en/noetic/api/visualization_msgs/html/msg/MarkerArray.html
+[actionlib_msgs/GoalID]:http://docs.ros.org/en/noetic/api/actionlib_msgs/html/msg/GoalID.html
+[move_base_msgs/MoveBaseActionGoal]:http://docs.ros.org/en/fuerte/api/move_base_msgs/html/msg/MoveBaseActionGoal.html
