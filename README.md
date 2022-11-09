@@ -155,21 +155,65 @@ The explore_costmap launch will start the run the exploration. This must be run 
 
 ## Nodes
 
-### ros_package_template
+### fringa_pkg
 
-Reads temperature measurements and computed the average.
+Perform an exploration of the environment based on the following cost function:
+
+$$U = C_d \cdot d - C_i \cdot f \cdot I$$
 
 
 #### Subscribed Topics
 
-* **`/temperature`** ([sensor_msgs/Temperature])
+
+* **`/clock`** ([rosgraph_msgs/Clock])
 
 	The temperature measurements from which the average is computed.
 
+* **`/move_base/feedback`** ([move_base_msgs/MoveBaseActionFeedback])
+
+	The temperature measurements from which the average is computed.
+
+* **`/move_base/global_costmap/costmap`** ([nav_msgs/OccupancyGrid])
+
+	The temperature measurements from which the average is computed.
+
+* **`/move_base/global_costmap/costmap_updates`** ([map_msgs/OccupancyGridUpdate])
+
+	The temperature measurements from which the average is computed.
+
+* **`/move_base/result`** ([move_base_msgs/MoveBaseActionResult])
+
+	The temperature measurements from which the average is computed.
+
+* **`/move_base/status`** ([actionlib_msgs/GoalStatusArray])
+
+	The temperature measurements from which the average is computed.
+
+* **`/tf`** ([tf/tfMessage])
+
+	The temperature measurements from which the average is computed.
+
+* **`/tf_static`** ([tf2_msgs/TFMessage])
+
+	The temperature measurements from which the average is computed.
 
 #### Published Topics
 
-...
+* **`/frontiered_IG/frontiers`** ([tf2_msgs/TFMessage])
+
+	The temperature measurements from which the average is computed.
+
+* **`/frontiered_IG/radios`** ([tf2_msgs/TFMessage])
+
+	The temperature measurements from which the average is computed.
+
+* **`/move_base/cancel`** ([tf2_msgs/TFMessage])
+
+	The temperature measurements from which the average is computed.
+
+* **`/move_base/goal`** ([tf2_msgs/TFMessage])
+
+	The temperature measurements from which the average is computed.
 
 
 #### Services
@@ -192,11 +236,6 @@ Reads temperature measurements and computed the average.
 	The size of the cache.
 
 
-### NODE_B_NAME
-
-...
-
-
 ## Bugs & Feature Requests
 
 Please report bugs and request features using the [Issue Tracker](https://github.com/Jagoca98/DynamicEntropyExplore/issues).
@@ -213,3 +252,9 @@ Please report bugs and request features using the [Issue Tracker](https://github
 [ROS Filters]: http://wiki.ros.org/filters
 [EigenLab]: https://github.com/leggedrobotics/EigenLab
 [map_msgs/OccupancyGridUpdate]: http://docs.ros.org/en/jade/api/map_msgs/html/msg/OccupancyGridUpdate.html
+[tf2_msgs/TFMessage]: http://docs.ros.org/en/melodic/api/tf2_msgs/html/msg/TFMessage.html
+[tf/tfMessage]:http://docs.ros.org/en/noetic/api/tf/html/msg/tfMessage.html
+[actionlib_msgs/GoalStatusArray]:http://docs.ros.org/en/noetic/api/actionlib_msgs/html/msg/GoalStatusArray.html
+[move_base_msgs/MoveBaseActionResult]:http://docs.ros.org/en/fuerte/api/move_base_msgs/html/msg/MoveBaseActionResult.html
+[rosgraph_msgs/Clock]:http://docs.ros.org/en/melodic/api/rosgraph_msgs/html/msg/Clock.html
+[move_base_msgs/MoveBaseActionFeedback]:http://docs.ros.org/en/fuerte/api/move_base_msgs/html/msg/MoveBaseActionFeedback.html
