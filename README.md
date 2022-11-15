@@ -7,9 +7,6 @@ This package contains the files
 
 **Keywords:** mobile robotics, autonomous mobile robotics, robot navigation, entropy, information theory.
 
-### License
-
-The source code is released under a [BSD 3-Clause license](ros_package_template/LICENSE).
 
 **Author: Jaime Godoy-Calvo, Dahui Lin-Yang, Ricardo Váquez-Martín, Alfonso García-Cerezo<br />
 Affiliation: [ISA, Universidad de Málaga](https://www.uma.es/isa)<br />
